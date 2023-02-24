@@ -1,0 +1,56 @@
+.myProfile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // overflow-y: auto;
+    // height: 90vh;
+    margin-bottom: 75px;
+    margin-top: 55px;
+    ::placeholder{
+        color: black;
+    }
+    &-gallery{
+        display: flex;
+        flex-direction: row;
+        width: 93vw;
+        // height:250px ;
+        // overflow:scroll;
+        gap: 10px;
+
+        &-image{
+            // display: contents;
+        width: 150px;
+        // height: 200px;
+        object-fit: cover;
+    }
+    }
+    
+
+    .myProfile-form{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        width: 100%;
+        label{
+            text-align: start;
+            display: flex;
+            flex-direction: column;
+            textarea{
+                width: 100%;
+                height: auto;
+            }
+            input{
+                text-align: start;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            select{
+                text-align: start;
+            }
+        }
+    }
+    
+}

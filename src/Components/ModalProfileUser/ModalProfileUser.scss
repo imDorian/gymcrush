@@ -1,0 +1,46 @@
+.modal_profile{
+    position: fixed;
+    z-index: 1001;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px;
+    border-radius: 10px;
+
+    padding: 30px;
+    &__heading{
+        width: 25px;
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+    &__img{
+        width: 100%;
+        height: 40vh;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__info{
+        padding: 0;
+        padding-block: 10px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 40vh;
+        overflow-x: auto;
+        li{
+            p{
+                margin: 0;
+            }
+           h5{
+            margin: 0;
+           }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.topBar{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 15px;
+    width: 100%;
+    position: fixed;
+    top: -1px;
+    z-index: 100;
+    img{
+        width: 35px;
+    }
+}
